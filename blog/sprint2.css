@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Lato',sans-serif;
+    color: #233518;
+    font-weight: 80;    
+}
+span.a {
+    display: inline; 
+    width: 200px;                               /* These dimensional attributes are ignored */
+    height: 200px;                              /* Items displayed on same line */
+    padding: 5px;
+    border: 1px solid rgb(1, 54, 37); 
+    background-color: rgb(111, 196, 169);
+}
+span.b {
+    display: inline-block;                      /* These dimensional attributes are included */
+    width: 200px;                               /* Items displayed on same line */   
+    height: 200px;
+    padding: 5px;
+    margin-bottom: 80px;
+    border: 1px solid rgb(1, 54, 37); 
+    background-color: rgb(111, 196, 169); 
+
+}
+span.c {
+    display: block;                              /* These dimensional attributes are included */
+    width: 200px;                                /* Items are NOT displayed on same line */
+    height: 200px;
+    padding: 5px;
+    border: 1px solid rgb(1, 54, 37);    
+    background-color: rgb(111, 196, 169); 
+  }
+
+
+
+  .screenshot{
+    
+    width: 500px;                              
+    height: 500px;
+    padding: 5px;
+    margin: 10px;
+  }
+
+
+
+
+ 

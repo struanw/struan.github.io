@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>BLOG 17.02.19 </title>
+    <meta charset="UTF-8">
+    <link href="sprint2.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+     <center>
+    <h1>What does it mean to display inline vs inline blocks?</h1>
+        <h3>17 Feburary 19</h3>
+
+<p> Reminder: The display property specifies the display behavior of an element.</p>
+
+<p> Display: inline-block  lets one to set a width and height on the element.
+ Therefore the top and bottom margins/paddings are respected, but with display: inline they are not.
+So the major difference is that 'inline' just puts the element with its atrributes next to each other. See example 1</p>
+
+<p>See example 2 - How the elements are inline with each other but the size or attribute are taken into consideration</p>
+<p>The screen shot below shows how the css gives margin/padding to BOTH the inline and inline block, but only inline block takes this into account. Span a is the css for example 1 and span b is the css for example 2.</p>
+<div><img class= "screenshot" src="screenshot.png" alt="picture"> 
+</div>
+
+    
+
+
+    
+    <p> <span class="a">Item A</span><span class="a">Item B</span>
+      Example 1
+    </p>
+    
+    <p><span class="b">Item A</span><span class="b">Item B</span>
+      Example 2
+    </p>
+
+    <h3>Bonus info: </h3>
+    <p>"Display:Block" seperates the elements by a line-break</p>
+    <p><span class="c">Item A</span><span class="c">Item B</span>
+    </p>    
+    <!-- this is a comment. -->
+
+    <p>info thanks to w3shcools.com</p>
+</center>
+  </body>
+</html>
