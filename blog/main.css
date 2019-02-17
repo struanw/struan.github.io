@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato',sans-serif;
+    color: #747704;
+    font-weight: 500;    
+}
+
+h1{
+    font-weight: 650;
+}
+
+.title-super {
+    font-size: 50px;
+
+}
+
+.title-pic{
+    margin-top: 15px;
+}
+
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+  a:link, a:visited {
+    background-color: #747704;
+    color: white;
+    padding: 12px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(72, 202, 152);
+  }
+
+  #rcorners4 {
+    border-radius: 10px;
+    
+  } 
+  
+  h5 {
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
